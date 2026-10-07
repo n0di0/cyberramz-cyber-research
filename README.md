@@ -5,7 +5,7 @@ A ready-made Jekyll site for GitHub Pages. You add one markdown file with your w
 ## Steps
 
 1. **Click "Use this template" → "Create a new repository."**
-   - Name it **yourusername.github.io** (your exact GitHub username, lowercase). This gives the site a clean address with no extra setup.
+   - Name it exactly **cyber-research**.
    - Set it to **Public**.
 2. **Edit `_config.yml`** (click the file, then the pencil icon). Change the title, description, and author. You can also pick your look: the file lists four themes (hacker, midnight, cayman, slate). Keep one without a `#` in front of it. Then click **Commit changes**.
 3. **Add your writeup.** Open the `_posts` folder, then **Add file → Create new file**.
@@ -13,7 +13,7 @@ A ready-made Jekyll site for GitHub Pages. You add one markdown file with your w
    - Paste in the post from your AI (see the prompt below), then **Commit changes**.
 4. **Delete the sample post:** open `_posts/2026-10-07-sample-post.md`, click the trash icon, and commit.
 5. **Turn on Pages:** **Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.**
-6. **Wait 1 to 2 minutes**, then refresh the Pages settings. Your link appears at the top: `https://yourusername.github.io/`.
+6. **Wait 1 to 2 minutes**, then refresh the Pages settings. Your link appears at the top: `https://yourusername.github.io/cyber-research/`.
 
 ## Prompt for your AI
 
@@ -39,7 +39,7 @@ WRITEUP:
 ## If something goes wrong
 
 - **"There isn't a GitHub Pages site here" or a 404:** wait two more minutes. Check that the repo is **Public** and that Settings → Pages shows a link.
-- **The site works but looks plain, with no styling:** your repo isn't named `yourusername.github.io`. Open `_config.yml`, remove the `#` before `baseurl`, and put your repo name in it.
+- **The site works but looks plain, with no styling:** your repo isn't named exactly `cyber-research`. Open `_config.yml` and make sure the `baseurl` line matches your repo name, with a slash in front.
 - **My post doesn't show up:**
   - Is it inside the `_posts` folder?
   - Is the file name `YYYY-MM-DD-title.md`?
