@@ -1,9 +1,13 @@
 ---
-layout: post
+layout: default
 title: "Sample Post: Replace This With Your Writeup"
 date: 2026-10-07
 tags: [sample]
 ---
+[← Back to home]({{ '/' | relative_url }})
+
+# Sample Post: Replace This With Your Writeup
+
 This is a placeholder so you can see how a post looks. Delete this file after you add your own, or just replace its contents.
 
 ## A heading
