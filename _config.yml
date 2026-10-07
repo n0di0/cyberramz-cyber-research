@@ -4,13 +4,20 @@ title: "My Cyber Writeup"
 description: "A beginner-friendly explainer on a cybersecurity topic."
 author: "Your Name"
 
+# PICK YOUR LOOK: keep exactly ONE of these four lines without a # in front.
+# To switch, put a # in front of the current one and remove the # from the new one.
+theme: jekyll-theme-hacker
+# theme: jekyll-theme-midnight
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-slate
+
 # Only if your repository is NOT named yourusername.github.io AND the page
 # looks plain and unstyled: remove the # from the next line and put your
 # repository name in it (keep the slash).
 # baseurl: "/your-repo-name"
 
 # Don't change anything below this line.
-theme: minima
+show_downloads: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
