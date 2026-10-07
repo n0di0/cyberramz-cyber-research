@@ -11,10 +11,10 @@ theme: jekyll-theme-hacker
 # theme: jekyll-theme-cayman
 # theme: jekyll-theme-slate
 
-# Only if your repository is NOT named yourusername.github.io AND the page
-# looks plain and unstyled: remove the # from the next line and put your
-# repository name in it (keep the slash).
-# baseurl: "/your-repo-name"
+# This must match your repository name, with a slash in front.
+# Your repo should be named cyber-research. If you named it something else,
+# change it here (for example "/my-other-name").
+baseurl: "/cyber-research"
 
 # Don't change anything below this line.
 show_downloads: false
